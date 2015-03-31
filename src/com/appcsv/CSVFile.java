@@ -10,6 +10,10 @@ import java.util.List;
 
 public class CSVFile {
     InputStream inputStream;
+    
+    public CSVFile(){
+      
+    }
   
     public CSVFile(InputStream inputStream){
         this.inputStream = inputStream;
